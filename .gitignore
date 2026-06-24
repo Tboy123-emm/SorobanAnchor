@@ -8,8 +8,6 @@
 *.sha256
 
 # Environment / secrets
-.env
-.env.*
 *.pem
 *.key
 credentials.json
@@ -30,9 +28,10 @@ __pycache__/
 .pytest_cache/
 
 # Editor
-.vscode/
 .idea/
 
 # Cargo.lock — keep for binaries, remove for libraries
 # (this is a library crate, so omit Cargo.lock from VCS)
 Cargo.lock
+config.bat
+node_modules
